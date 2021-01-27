@@ -348,7 +348,7 @@
             </li>
 
             <li class="{{ Request::is('admin-oke/category*') ? 'active' : '' }}">
-                <a href="">
+                <a href="{{ route('admin.category.index') }}">
                     <i class="fa fa-edit"></i> <span>Category</span>
                 </a>
             </li>
