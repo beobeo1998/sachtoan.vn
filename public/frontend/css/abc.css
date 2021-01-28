@@ -1,0 +1,329 @@
+@font-face {
+font-family: 'Linotte-Bold';
+src: url('https://s.sachmem.vn/public/temp-sm-questions/fonts/r0c0i-Linotte-Bold.ttf');
+}
+@font-face {
+font-family: 'Arial';
+src: url('https://s.sachmem.vn/public/temp-sm-questions/fonts/Arial.ttf');
+}
+@font-face {
+font-family: 'Linotte-Regular';
+src: url('https://s.sachmem.vn/public/temp-sm-questions/fonts/r0c0i-LinotteRegular.ttf');
+}
+@font-face {
+font-family: 'Linotte-SemiBold';
+src: url('https://s.sachmem.vn/public/temp-sm-questions/fonts/r0c0i-LinotteSemiBold.ttf');
+}
+.header-text {
+font-family: Linotte-SemiBold;
+color: rgba(255, 255, 255, 1) !important;
+}
+.header-text:hover {
+color: rgba(60, 60, 60, 1) !important;
+background-color: rgba(255, 255, 255, 1) !important;
+border-radius: 6px !important;
+}
+.banner {
+background: url('https://s.sachmem.vn/public/temp-sm-questions/image/landing-01.jpg')
+no-repeat center center;
+background-size: cover;
+min-height: 780px;
+display: flex;
+align-items: center;
+margin: auto;
+margin-top: -2px !important; 
+}
+@media (max-width: 575.98px) {
+.banner {
+background: url('https://s.sachmem.vn/public/temp-sm-questions/image/landing-360px-05.jpg')
+no-repeat center center;
+background-size: 100% 100%;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+.banner {
+background: url('https://s.sachmem.vn/public/temp-sm-questions/image/landing-mobile.jpg')
+no-repeat center center;
+background-size: 100% 100%;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+.banner {
+background: url('https://s.sachmem.vn/public/temp-sm-questions/image/landing-768px.jpg')
+no-repeat center center;
+background-size: 100% 100%;
+}
+}
+@media (min-width: 992px) and (max-width: 1299.98px) {
+.banner {
+background: url('https://s.sachmem.vn/public/temp-sm-questions/image/landing-01.jpg')
+no-repeat center center;
+background-size: 100% 100%;
+}
+}
+@media (min-width: 1300px) and (max-width: 1499.98px) {
+.banner {
+background: url('https://s.sachmem.vn/public/temp-sm-questions/image/landing-1300px.jpg')
+no-repeat center center;
+background-size: 100% 100%;
+}
+}
+@media (min-width: 1500px) {
+.banner {
+background: url('https://s.sachmem.vn/public/temp-sm-questions/image/landing-2560px.jpg')
+no-repeat center center;
+background-size: 100% 100%;
+}
+}
+.custom-hr-body {
+border-top: 2px solid rgba(229, 229, 229, 1);
+}
+.custom-hr-1-body {
+border-top: 2px solid rgba(229, 229, 229, 1);
+}
+.font-title {
+font-family: Linotte-Bold;
+color: rgba(60, 60, 60, 1);
+}
+.font-p {
+font-family: Arial;
+color: rgba(119, 119, 119, 1);
+}
+.font-text-footer {
+font-family: Linotte-SemiBold;
+}
+.btn-add-sachmem {
+border: rgba(57, 198, 78, 1);
+border-radius: 20px;
+width: 175px;
+font-family: Linotte-SemiBold;
+font-style: normal;
+font-size: smaller;
+line-height: 36px;
+text-align: center;
+color: #ffffff !important;
+}
+.btn-add-sachmem:hover {
+color: rgba(60, 60, 60, 1) !important;
+}
+.btn-viewmore {
+border: rgba(57, 198, 78, 1);
+border-radius: 30px;
+width: 150px;
+height: 50px;
+font-family: Linotte-SemiBold;
+font-style: normal;
+font-size: larger;
+line-height: 36px;
+text-align: center;
+color: #ffffff !important;
+}
+.btn-viewmore:hover {
+color: rgba(60, 60, 60, 1) !important;
+}
+.btn-hoclieudientu {
+border: rgba(57, 198, 78, 1);
+border-radius: 30px;
+width: 220px;
+height: 50px;
+font-family: Linotte-SemiBold;
+font-style: normal;
+font-size: larger;
+line-height: 36px;
+text-align: center;
+color: #ffffff !important;
+}
+.btn-hoclieudientu:hover {
+color: rgba(60, 60, 60, 1) !important;
+}
+.btn-trial {
+border: 2px solid #ffffff;
+box-sizing: border-box;
+border-radius: 30px;
+width: 155px;
+height: 50px;
+font-family: Linotte-SemiBold;
+font-style: normal;
+font-size: larger;
+line-height: 35px;
+text-align: center;
+color: #ffffff !important;
+background-color: transparent;
+}
+.btn-trial:hover {
+background-color: #ffffff !important;
+color: rgba(108, 122, 252, 1) !important;
+}
+.btn-login {
+border: 2px solid #ffffff;
+box-sizing: border-box;
+border-radius: 30px;
+width: 155px;
+height: 50px;
+font-family: Linotte-SemiBold;
+font-style: normal;
+font-size: larger;
+line-height: 35px;
+text-align: center;
+color: #ffffff !important;
+background-color: transparent;
+}
+.btn-login:hover {
+background-color: #ffffff !important;
+color: rgba(108, 122, 252, 1) !important;
+}
+.heading-footer {
+font-family: Linotte-Bold;
+font-weight: bold;
+}
+.font-text-regular {
+font-family: Linotte-Regular;
+}
+.color-text-footer {
+color: rgba(216, 223, 239, 1);
+}
+.img-footer {
+background: url('https://s.sachmem.vn/public/temp-sm-questions/image/footer-desktop.jpg');
+background-size: 100%;
+padding-bottom: 5px;
+}
+.custom-statistical-box {
+width: 100%;
+overflow: hidden;
+margin: 20px auto;
+}
+.custom-statistical-box ul {
+padding: 0px;
+margin: 0px;
+}
+.custom-statistical-box ul li {
+text-align: center;
+border-radius: 25px;
+list-style: none;
+float: left;
+width: 18%;
+height: 220px;
+background: rgba(108, 122, 252, 1);
+margin: 40px 30px 0px 40px;
+box-sizing: border-box;
+border: 2px solid white;
+}
+.custom-statistical-box ul li:hover {
+opacity: 0.9;
+}
+.custom-statistical-box ul li .title:hover {
+opacity: 0.9;
+}
+.custom-statistical-box ul li .title {
+display: flex;
+border-radius: 20px 20px 0px 0px;
+width: 100%;
+height: 80px;
+font-size: large;
+background: rgba(239, 239, 239, 1);
+text-align: center;
+align-items: center;
+justify-content: center;
+font-family: Linotte-SemiBold;
+}
+.text-custom-satistical {
+color: rgba(239, 239, 239, 1);
+font-size: 25px;
+}
+.number-custom-satistical {
+color: rgba(239, 239, 239, 1);
+font-size: 35px;
+margin-top: 0.5rem;
+margin-bottom: 0px;
+}
+@media screen and (max-width: 1250px) {
+.custom-statistical-box ul li {
+width: 40%;
+margin-left: 50px;
+}
+}
+@media screen and (max-width: 1000px) {
+.custom-statistical-box {
+width: 100%;
+padding: 0px;
+}
+.custom-statistical-box ul li {
+float: none;
+width: 90%;
+margin: 40px auto;
+}
+}
+.banner-sp {
+display: none;
+}
+@media screen and (max-width: 580px) {
+.banner-pc {
+display: none;
+}
+.banner-sp {
+margin-top: -335px;
+display: block;
+}
+}
+.english-book-sp {
+display: none;
+}
+.btn-xemthem-sp {
+display: none;
+}
+.bosach-giaokhoa-text-sp {
+display: none;
+}
+.btn-block-sgk-sp {
+display: none;
+}
+@media screen and (max-width: 780px) {
+.text-center-sp {
+text-align: center;
+}
+.english-book-pc {
+display: none;
+}
+.english-book-sp {
+display: block;
+}
+.btn-xemthem-pc {
+display: none;
+}
+.btn-xemthem-sp {
+display: block;
+}
+.bosach-giaokhoa-text-pc {
+display: none;
+}
+.bosach-giaokhoa-text-sp {
+display: block;
+}
+.btn-block-sgk-pc {
+display: none;
+}
+.btn-block-sgk-sp {
+text-align: center;
+display: block;
+}
+.img-footer {
+background: url('https://s.sachmem.vn/public/temp-sm-questions/image/footer-mobile.jpg') no-repeat;
+background-size: cover;
+padding-bottom: 5px;
+}
+}
+.btn-question-mark {
+margin: 0px 12px;
+padding: 0px;
+position: fixed;
+z-index: 2147483644;
+bottom: 24px;
+top: auto;
+height: 60px;
+width: 60px;
+border-radius: 29px;
+box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;
+background: none;
+display: block;
+right: 80px;
+}
